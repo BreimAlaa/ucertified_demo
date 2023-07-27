@@ -9,8 +9,6 @@ if [ ! -d /.composer ]; then
 fi
 
 npm install
-npx tailwindcss init -p
-npm run dev
 composer install
 php artisan migrate
 chmod -R ugo+rw /.composer
