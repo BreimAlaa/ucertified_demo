@@ -10,6 +10,8 @@ fi
 
 npm install
 composer install
+npx mix
+npm run dev
 php artisan migrate
 chmod -R ugo+rw /.composer
 
